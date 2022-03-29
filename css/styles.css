@@ -1,0 +1,121 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 100vh;
+}
+
+.photo {
+    width: 280px;
+    height: 280px;
+    border: 7px solid sandybrown;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    width: 27vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-links {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.menu-links li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+}
+
+.menu-links li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.informs h1 {
+    text-transform: uppercase;
+    font-size: 120px;
+    margin-top: 200px;
+    padding-left: 30px;
+}
+
+.informs span {
+    color: coral;
+}
+
+.informs h3 {
+    font-size: 25px;
+    padding-left: 39px;
+}
+
+.informs h3 a {
+    text-decoration: none;
+    color: salmon
+}
+
+.informs h3 a:hover {
+    text-decoration: none;
+    color: orange
+}
+
+.informs p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 50%;
+    margin-bottom: 400px;
+}
+
+.social img {
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
